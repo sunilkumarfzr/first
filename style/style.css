@@ -1,0 +1,134 @@
+body{
+  font-family: Helvetica;
+  font-weight: 100;
+  color: #777;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-top: 20px;
+
+}
+
+.links ul a {
+  text-decoration: none;
+  padding-right: 15px;
+  color: #309389;
+  font-weight: 600;
+}
+.headingp {
+  text-align: center;
+}
+
+.content {
+  margin-top: 8%;
+  margin-left: 10%;
+  width: 30%;
+  justify-content: center;
+  text-align: justify;
+}
+
+
+.part2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 14%;
+  
+}
+
+
+.paragraphs {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6%;
+  text-align: justify;
+  line-height: 1.2em;
+}
+
+.follow {
+display: flex;
+justify-content: center;
+}
+
+.follow a {
+  padding-right:10px;
+  color: #32998F
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.container{
+  background: rgb(237, 239, 240);
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.testimonial-card{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  min-height: 350px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.3);
+ 
+}
+
+.image{
+  background-color:tomato;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #fed8b1;
+}
+
+.logo a {
+  height: 25px;
+  padding-right: 10px;
+  color: #32998F;
+}
+
+@media (min-width:1200px){
+.card-deck span:nth-of-type(5n) {
+display: block;
+width: 100%;
+}
+
+}
+@media (min-width:992px) and (max-width: 1199px) {
+.card-deck span:nth-of-type(4n) {
+display: block;
+width: 100%;
+}
+
+}
+@media (min-width:768px) and (max-width: 991px) {
+.card-deck span:nth-of-type(3n) {
+display: block;
+width: 100%;
+}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+.card-deck span:nth-of-type(2n) {
+display: block;
+width: 100%;
+}
+}
