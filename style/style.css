@@ -44,6 +44,17 @@ body{
   justify-content: space-around; 
 }
 
+.label {
+  margin: 0 40px 0 0 ;
+  font-size: 26;
+  line-height: 50px;
+  display: none;
+  }
+  
+#toggle{
+  display: none;
+}
+
 
 .paragraphs {
   margin-left: 10%;
@@ -117,9 +128,27 @@ justify-content: center;
   
   .part2{
     display: block;
-
   }
 
+  .label {
+    display: block;
+    cursor: pointer;
+  }
+  .links{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .links ul a {
+    display: block;
+    margin: 0;
+  }
+
+  #toggle:checked + .links{
+    display: block;
+
+  }
   .content {
     margin-left: auto;
     margin-right: auto;
